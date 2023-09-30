@@ -3,7 +3,7 @@ import ExploreProducts from '@/modules/exploreProducts';
 import MissionVision from '@/modules/missionVision';
 import React from 'react'
 
-const HomePage = () => {
+const Landing = () => {
   return (
     <React.Fragment>
       <Banner />
@@ -13,4 +13,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage;
+export default Landing;
