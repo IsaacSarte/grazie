@@ -1,6 +1,7 @@
 "use client";
 import Button from '@/components/button';
 import React from 'react'
+import grazieIcon from "../../public/images/Grazie1322Logo.png";
 import { AnimatePresence, motion } from 'framer-motion';
 
 const Banner = () => {
@@ -10,7 +11,11 @@ const Banner = () => {
         {/* left div */}
         <div className="w-1/2 bg-slate-100">
           <div className="w-[90%] mt-4 mx-auto flex flex-col gap-12">
-            <span className="text-4xl font-semibold">Grazie</span>
+            <img
+              src={grazieIcon}
+              alt=""
+              className="w-32 h-auto"
+            />
             <AnimatePresence>
               <motion.div
                 initial={{ opacity: 0 }}
@@ -19,10 +24,13 @@ const Banner = () => {
                 className="mt-4 flex flex-col gap-8"
               >
                 <span className="mt-4 text-6xl font-semibold">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Welcome to Grazie 1332
+                </span>
+                <span className="ml-3 text- font-semibold opacity-65">
+                  Where Curiosity, Comfort and Goodness Unite!
                 </span>
                 <p className="mt-4 text-2xl font-semibold opacity-75">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, consectetur facilis? hee hee hee hee
+                At Grazie, we're in the business of creating smiles and connections. We're a team of dreamers and doers, united by a love for learning, well-being, and givers of gratitude.
                 </p>
                 <Button 
                   label={'Shop Now'}
