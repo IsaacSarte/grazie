@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Button from '@/components/button';
 import React from 'react'
 import grazieIcon from "../../public/images/Grazie1322Logo.png";
+import solarBench from "../../public/images/solar_smart_bench1.jpg";
 import { AnimatePresence, motion } from 'framer-motion';
 
 const Banner = () => {
@@ -15,8 +16,8 @@ const Banner = () => {
             <Image
               src={grazieIcon}
               alt="Grazie Logo"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
             />
             <AnimatePresence>
               <motion.div
@@ -49,7 +50,7 @@ const Banner = () => {
               <AnimatePresence>
                 <motion.div 
                     className="h-[50vh] bg-cover bg-center relative"
-                    style={{backgroundImage: "url('https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80')"}}
+                    style={{backgroundImage: `url(${solarBench})`}}
                     initial={{ height: 0 }}
                     animate={{ height: '50vh' }}
                     transition={{ type: 'spring', bounce: 0.1, duration: 1.5 }}
