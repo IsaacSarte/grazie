@@ -7,11 +7,13 @@ const ExploreProducts = () => {
   return (
     <React.Fragment>
       <div className="h-screen bg-slate-100">
-        <div className="w-[90%] mx-auto">
-          <DescriptionWithButton 
+        <div className="w-[95%] mx-auto">
+          <DescriptionWithButton
             withButton={true} 
             buttonLabel={'Shop Now'}
             description={desc}
+            bgColor={'bg-yellow-800'}
+            txtColor={'text-white'}
           />
         </div>
       </div>
