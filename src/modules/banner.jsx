@@ -48,8 +48,7 @@ const Banner = () => {
             <div className="flex flex-col">
               <AnimatePresence>
                 <motion.div 
-                    className="h-[50vh] bg-cover bg-center relative"
-                    style={{backgroundImage: "url('https://images.unsplash.com/photo-1547996160-81dfa63595aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3087&q=80')"}}
+                    className="product-one h-[50vh] bg-cover bg-center relative"
                     initial={{ height: 0 }}
                     animate={{ height: '50vh' }}
                     transition={{ type: 'spring', bounce: 0.1, duration: 1.5 }}
@@ -62,8 +61,7 @@ const Banner = () => {
               <AnimatePresence>
                 <div className="h-[50vh] bg-slate-100 flex">
                   <motion.div
-                    className="bg-cover bg-center w-1/2"
-                    style={{backgroundImage: "url('https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3174&q=80')"}}
+                    className="product-two bg-cover bg-center w-1/2"
                     initial={{ width: 0 }}
                     animate={{ width: '100%' }}
                     transition={{ type: 'spring', bounce: 0.1, duration: 1.5 }}

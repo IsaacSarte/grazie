@@ -7,3 +7,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* landing styles */
+.product-one {
+  background-image: url('../../public/images/Bbench2.jpg');
+}
+
+.product-two {
+  background-image: url('../../public/images/AvCart.jpg');
+}
