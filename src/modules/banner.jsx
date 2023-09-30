@@ -38,6 +38,8 @@ const Banner = () => {
                 <Button 
                   label={'Shop Now'}
                   className="p-4"
+                  bgColor={'bg-yellow-800'}
+                  txtColor={'text-white'}
                 />
               </motion.div>
             </AnimatePresence>
