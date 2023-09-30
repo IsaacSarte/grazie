@@ -25,7 +25,7 @@ const MissionVision = () => {
               alt="Mission Placeholder"
               width={550}
               height={550}
-              className='object-cover'
+              className=''
             />
             <span className="mt-3 text-2xl font-semibold opacity-65">
               Mission
