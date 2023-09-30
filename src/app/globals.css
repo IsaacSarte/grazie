@@ -7,3 +7,20 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* landing styles */
+.product-one {
+  background-image: url('../../public/images/Bbench2.jpg');
+}
+
+.product-two {
+  background-image: url('../../public/images/bananachips3.png');
+}
+
+.product-three{
+  background-image: url('../../public/images/solar_smart_bench1.jpg');
+}
+
+.product-four{
+  background-image: url('../../public/images/Bbench4.jpg');
+}

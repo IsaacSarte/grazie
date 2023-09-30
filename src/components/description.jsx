@@ -1,11 +1,11 @@
 import React from 'react'
 import cn from 'classnames'
 
-const DescriptionWithButton = ({ withButton = false, description, buttonLabel, bgColor, txtColor }) => {
+const DescriptionWithButton = ({ withButton = false, description, buttonLabel, bgColor, txtColor, descColor}) => {
   return (
     <React.Fragment>
       <div className="flex justify-between">
-        <span className="mt-4 text-2xl font-semibold">
+        <span className={cn("mt-4 text-2xl font-semibold ", descColor)}>
             {description}
         </span>
         {withButton ? (
