@@ -1,6 +1,5 @@
 import DescriptionWithButton from '@/components/description';
 import React from 'react'
-import Button from '@/components/button';
 
 const ExploreProducts = () => {
   const desc = 'lorem ipsum dolor sit amet, consectetur adip';

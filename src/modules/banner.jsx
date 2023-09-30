@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Button from '@/components/button';
 import React from 'react'
 import grazieIcon from "../../public/images/Grazie1322Logo.png";
-import solarBench from "../../public/images/solar_smart_bench1.jpg";
 import { AnimatePresence, motion } from 'framer-motion';
 
 const Banner = () => {
@@ -33,7 +32,7 @@ const Banner = () => {
                   Where Curiosity, Comfort and Goodness Unite!
                 </span>
                 <p className="mt-4 text-2xl font-semibold opacity-75">
-                  At Grazie, we're in the business of creating smiles and connections. We're a team of dreamers and doers, united by a love for learning, well-being, and givers of gratitude.
+                  At Grazie, we&apos;re in the business of creating smiles and connections. We're a team of dreamers and doers, united by a love for learning, well-being, and givers of gratitude.
                 </p>
                 <Button 
                   label={'Shop Now'}
