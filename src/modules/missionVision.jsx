@@ -1,29 +1,31 @@
 import React from 'react';
-import Button from '@/components/button';
 import Image from "next/image";
+import solarBench from "../../public/images/solar_smart_bench1.jpg";
+import bench from "../../public/images/Bbench4.jpg";
+import DescriptionWithButton from '@/components/description';
 
 const MissionVision = () => {
+  const desc = "We've curated an online haven where cozy corners meet cutting-edge learning,"
   return (
     <div className="bg-[#756666] p-6 pt-16 h-screen ">
-      <div className="flex justify-between items-start">
-        <div className="mt-4 ml-[40px] text-2xl text-white font-semibold opacity-75">
-          <p>We've curated an online haven where cozy corners meet cutting-edge learning,</p>
-        </div>
-        <div>
-          <Button
-            label={'Shop Now'}
-            className="p-2 border border-white bg-red-500 text-white hover:bg-red-600 hover:text-[#756666]"
-          />
-        </div>
-      </div>
-      <div className="flex justify-between mt-4 pt-16">
+      <DescriptionWithButton
+        withButton={true}
+        buttonLabel={'Shop Now'}
+        description={desc}
+        bgColor={"bg-transparent border-2 border-white"}
+        txtColor={"text-white"}
+        descColor={"text-white"}
+      />
+      <div className="flex justify-between mt-4 pt-1">
         <div className="w-full max-w-[800px] h-[700px] m-4 ml-[80px]">
           <div className="bg-white p-4 rounded h-full">
             {/* Placeholder image for Mission */}
-            <img
-              src="https://via.placeholder.com/550x501"
+            <Image
+              src={solarBench}
               alt="Mission Placeholder"
-              className="w-full h-72 object-cover"
+              width={550}
+              height={550}
+              className='object-cover'
             />
             <span className="mt-3 text-2xl font-semibold opacity-65">
               Mission
@@ -34,10 +36,12 @@ const MissionVision = () => {
         <div className="w-full max-w-[800px] h-[700px] m-4 mr-[80px]">
           <div className="bg-white p-4 rounded h-full">
             {/* Placeholder image for Vision */}
-            <img
-              src="https://via.placeholder.com/550x501"
+            <Image
+              src={bench}
               alt="Vision Placeholder"
-              className="w-full h-72 object-cover"
+              width={550}
+              height={550}
+              className=''
             />
             <span className="mt-3 text-2xl font-semibold opacity-65">
               Vision
