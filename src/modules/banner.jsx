@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Button from '@/components/button';
 import React from 'react'
 import grazieIcon from "../../public/images/Grazie1322Logo.png";
+import solarBench from "../../public/images/solar_smart_bench1.jpg";
 import { AnimatePresence, motion } from 'framer-motion';
 
 const Banner = () => {
@@ -15,8 +16,8 @@ const Banner = () => {
             <Image
               src={grazieIcon}
               alt="Grazie Logo"
-              width={100}
-              height={100}
+              width={150}
+              height={150}
             />
             <AnimatePresence>
               <motion.div
