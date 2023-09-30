@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image'
 import Button from '@/components/button';
 import React from 'react'
 import grazieIcon from "../../public/images/Grazie1322Logo.png";
@@ -11,10 +12,11 @@ const Banner = () => {
         {/* left div */}
         <div className="w-1/2 bg-slate-100">
           <div className="w-[90%] mt-4 mx-auto flex flex-col gap-12">
-            <img
+            <Image
               src={grazieIcon}
-              alt=""
-              className="w-32 h-auto"
+              alt="Grazie Logo"
+              width={100}
+              height={100}
             />
             <AnimatePresence>
               <motion.div
@@ -30,7 +32,7 @@ const Banner = () => {
                   Where Curiosity, Comfort and Goodness Unite!
                 </span>
                 <p className="mt-4 text-2xl font-semibold opacity-75">
-                At Grazie, we're in the business of creating smiles and connections. We're a team of dreamers and doers, united by a love for learning, well-being, and givers of gratitude.
+                  At Grazie, we're in the business of creating smiles and connections. We're a team of dreamers and doers, united by a love for learning, well-being, and givers of gratitude.
                 </p>
                 <Button 
                   label={'Shop Now'}
