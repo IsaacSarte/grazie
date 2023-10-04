@@ -25,13 +25,13 @@ const Banner = () => {
                 transition={{ duration: 1, delay: 0.25 }}
                 className="mt-4 flex flex-col gap-8"
               >
-                <span className="mt-4 text-6xl font-semibold">
+                <span className="md:mt-4 text-3xl md:text-6xl font-semibold">
                   Welcome to Grazie 1332
                 </span>
-                <span className="ml-3 text- font-semibold opacity-65">
+                <span className="text-xl md:text-2xl font-semibold opacity-65">
                   Where Curiosity, Comfort and Goodness Unite!
                 </span>
-                <p className="mt-4 text-2xl font-semibold opacity-75">
+                <p className="mt-4 md:text-2xl font-semibold opacity-75">
                   At Grazie, we&apos;re in the business of creating smiles and connections. We&apos;re a team of dreamers and doers, united by a love for learning, well-being, and givers of gratitude.
                 </p>
                 <Button 
@@ -55,7 +55,7 @@ const Banner = () => {
                     animate={{ height: '50vh' }}
                     transition={{ type: 'spring', bounce: 0.1, duration: 1.5 }}
                 >
-                    <span className="absolute bottom-0 text-2xl tracking-wide text-white p-4 font-bold">
+                    <span className="absolute bottom-0 md:text-2xl tracking-wide text-white p-4 font-bold">
                         Product 1
                     </span>
                 </motion.div>
@@ -73,7 +73,7 @@ const Banner = () => {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 1, delay: 0.5 }}
-                      className="text-2xl font-bold">
+                      className="md:p-0 md:text-2xl font-bold">
                         Product 2
                     </motion.span>
                     <hr className="h-1 w-1/2 bg-black" />
