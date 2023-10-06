@@ -2,7 +2,7 @@ import DescriptionWithButton from '@/components/description';
 import React from 'react'
 
 const ExploreProducts = () => {
-  const desc = 'lorem ipsum dolor sit amet, consectetur adip';
+  const desc = 'We have curated an online haven where cozy corners meet cutting-edge learning.';
 
   return (
     <React.Fragment>
