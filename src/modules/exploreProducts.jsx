@@ -18,7 +18,7 @@ const ExploreProducts = () => {
             txtColor={'text-white'}
           />
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-14 mt-8 w-[95%] mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap- mt-8 w-[95%] mx-auto">
           {products.map((product, index) => (
             <>
               <div key={index} className="bg-white p-4 rounded shadow-md">
