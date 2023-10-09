@@ -16,6 +16,8 @@ const ExploreProducts = () => {
             txtColor={'text-white'}
           />
         </div>
+
+        {/* map imported static products data */}
       </div>
     </React.Fragment>
   )

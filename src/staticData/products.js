@@ -1,0 +1,1 @@
+// Create an array of objects containing 'product_title' and 'product_price'
