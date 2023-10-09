@@ -4,7 +4,7 @@ import DescriptionWithButton from '@/components/description';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const MissionVision = () => {
-  const desc = "At Grazie, we are in the business of creating smiles and connections.";
+  const desc = "From Granny secrets to modern delights, savor the essence of tradition of our homemade foods.";
 
   return (
     <React.Fragment>

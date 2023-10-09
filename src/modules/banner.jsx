@@ -29,7 +29,7 @@ const Banner = () => {
                   Welcome to Grazie 1332
                 </span>
                 <span className="text-xl md:text-2xl font-semibold opacity-65">
-                  Where Curiosity, Comfort and Goodness Unite!
+                    Eat Right, Feel Bright: One Delicious Bite at a Time!
                 </span>
                 <Button 
                   label={'Shop Now'}
