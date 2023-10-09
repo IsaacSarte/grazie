@@ -8,7 +8,7 @@ const ExploreProducts = () => {
 
   return (
     <React.Fragment>
-      <div className="h-screen bg-slate-100">
+      <div className="bg-slate-100">
         <div className="w-[95%] mx-auto">
           <DescriptionWithButton
             withButton={true}
@@ -18,15 +18,18 @@ const ExploreProducts = () => {
             txtColor={'text-white'}
           />
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap- mt-8 w-[95%] mx-auto">
-          {products.map((product, index) => (
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-14 mt-8 w-[95%] mx-auto">
+          {products?.map((product, index) => (
             <>
-              <div key={index} className="bg-white p-4 rounded shadow-md">
-                <div className="image-container w-full h-72 overflow-hidden">
-                  <Image src={product.image} alt={product.title} className="w-full h-auto" />
+              <div key={`prod-${index}`}>
+                <div className="bg-white p-4 h-72 overflow-hidden">
+                    <Image
+                        src={product?.image} 
+                        alt={product?.title}
+                    />
                 </div>
+                <h2 className="text-lg font-semibold mt-4">{product?.title}</h2>
               </div>
-              <h2 className="text-lg font-semibold mt-2">{product.title}</h2>
             </>
           ))}
         </div>
