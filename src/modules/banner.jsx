@@ -53,7 +53,7 @@ const Banner = () => {
                     transition={{ type: 'spring', bounce: 0.1, duration: 1.75 }}
                 >
                     <span className="absolute bottom-0 md:text-2xl tracking-wide text-white p-4 font-bold">
-                        Product 1
+                        Cereal Bar
                     </span>
                 </motion.div>
               </AnimatePresence>
@@ -71,7 +71,7 @@ const Banner = () => {
                       animate={{ opacity: 1 }}
                       transition={{ duration: 1, delay: 1 }}
                       className="md:p-0 md:text-2xl font-bold">
-                        Product 2
+                        Mixed Nuts
                     </motion.span>
                     <hr className="h-1 w-1/2 bg-black" />
                   </div>

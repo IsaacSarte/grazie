@@ -10,7 +10,7 @@
 
 /* landing styles */
 .product-one {
-  background-image: url('../../public/images/Cereal\ bar\ 1.jpg');
+  background-image: url('../../public/images/cerealBar.jpg');
 }
 
 .product-two {
@@ -18,9 +18,9 @@
 }
 
 .product-three {
-  background-image: url('../../public/images/FD\ Durian.jpg');
+  background-image: url('../../public/images/FDDurian.jpg');
 }
 
 .product-four {
-  background-image: url('../../public/images/crispy\ pineapple.png');
+  background-image: url('../../public/images/crispyPineapple.png');
 }
