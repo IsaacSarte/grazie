@@ -26,7 +26,7 @@ const Banner = () => {
                 className="mt-4 flex flex-col gap-8"
               >
                 <span className="md:mt-4 text-3xl md:text-6xl font-semibold">
-                  Welcome to Grazie 1332
+                  Welcome to Grazie 1322
                 </span>
                 <span className="text-xl md:text-2xl font-semibold opacity-65">
                     Eat Right, Feel Bright: One Delicious Bite at a Time!
