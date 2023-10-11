@@ -59,6 +59,7 @@ const MissionVision = () => {
             bgColor={"bg-transparent border-2 border-white"}
             txtColor={"text-white"}
             descColor={"text-white"}
+            link={"https://www.facebook.com/GrazieOnlineStore/"}
           />
         </div>
 
