@@ -33,7 +33,7 @@ const MissionVision = () => {
               <div className="p-4">
                 <span className="text-2xl md:text-4xl">Mission</span>
                 <hr className="h-1 w-1/2 bg-black" />
-                <p className="mt-2 text-sm md:text-base">At Grazie, our mission is to cultivate a lifestyle of balance, curiosity, and gratitude in the digital age. Through thoughtfully curated products, we inspire and support good physical and digital reading habits, foster healthy eating choices, and encourage a mindset of constant appreciation. Through our offerings, we aim to guide individuals towards a harmonious existence that embraces both the virtual and the tangible.</p>
+                <p className="mt-2 text-sm md:text-base">We strive to deliver timeless and exceptional food experiences that transcend generations, crafting a legacy of joy and well-being. Through our commitment to quality, innovation, and health, we aim to delight taste buds across ages, fostering a community that cherishes the art of nourishing both body and soul.</p>
               </div>
             </div>
             {/* vision */}
@@ -42,7 +42,7 @@ const MissionVision = () => {
               <div className="p-4">
                 <span className="text-2xl md:text-4xl">Vision</span>
                 <hr className="h-1 w-1/2 bg-black" />
-                <p className="mt-2 text-sm md:text-base">Our vision is to be a guiding light in the modern world, where reading enriches minds, nourishment fuels vitality, and gratitude permeates every moment. Grazie envisions a future where our products empower individuals to navigate the digital landscape while staying grounded in meaningful experiences. We strive to create a community that values learning, enhancing lives even amidst the digital era&apos;s rapid pace.</p>
+                <p className="mt-2 text-sm md:text-base">To be the heart of homes worldwide, where our diverse range of special foods and healthy snacks becomes synonymous with moments of happiness and vitality. We envision a future where every generation finds comfort, pleasure, and wellness in our products, creating a lasting tradition of savoring life&apos;s moments with our timeless delights.</p>
               </div>
             </div>
           </motion.div>
