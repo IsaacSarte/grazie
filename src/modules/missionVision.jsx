@@ -5,7 +5,7 @@ import { useInView } from 'react-intersection-observer';
 import { motion, useAnimation } from 'framer-motion';
 
 const MissionVision = () => {
-  const desc = "From Granny secrets to modern delights, savor the essence of tradition of our homemade foods.";
+  const desc = "From Granny's secrets to modern delights, savor the essence of tradition of our homemade foods.";
 
   const { ref, inView } = useInView({
     threshold: 0.25

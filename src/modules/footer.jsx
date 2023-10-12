@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="bg-slate-100 flex flex-col">
             <div className="mb-12"/>
             <footer className="border-t-8 border-gray-300 py-4 text-black">
-                <div className="container mx-auto flex justify-between items-center">
+                <div className="container w-[95%] mx-auto flex justify-between items-center">
                     <div className="text-center font-bold">
                         <p>&copy; Grazie 1322</p>
                         <p>09260483178</p>
