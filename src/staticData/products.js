@@ -12,31 +12,31 @@ import mixedNuts from "../../public/images/mixedNutsAndDriedFruits.png";
 import cerealBar from "../../public/images/cerealBar.jpg";
 
 const products = [{
-        title: "Cashew Nut(45g)",
-        image: cashewNut,
-    },
-    {
-        title: "Cashew Nut Coconut(45g)",
-        image: cashewCoco,
-        
-    },
-    {
-        title: "Cashew Nut Durian(45g)",
-        image: cashewDur,
-        
-    },
-    {
         title: "Crispy Mango(50g)",
         image: crispMang,
-        
     },
     {
-        title: "Crispy Pineapple(50g)",
+        title: "Crispy Pineapplee(50g)",
         image: crispPine,
+        
     },
     {
         title: "Crispy Banana(50g)",
         image: crispBanan,
+        
+    },
+    {
+        title: "Cashew Nut(45g)",
+        image: cashewNut,
+        
+    },
+    {
+        title: "Cashew Coconut Flavor(45g)",
+        image: cashewCoco,
+    },
+    {
+        title: "Cashew Durian Flavor(45g)",
+        image: cashewDur,
     },
     {
         title: "Freeze Dried Pineapple(50g)",
