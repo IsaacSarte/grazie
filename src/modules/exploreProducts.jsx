@@ -8,7 +8,7 @@ import { motion, useAnimation } from 'framer-motion';
 
 const ExploreProducts = () => {
   const desc = 'Each bite tells a story of love, passed down through generations';
-  
+
   const { ref, inView } = useInView({
     threshold: 0.1
   });

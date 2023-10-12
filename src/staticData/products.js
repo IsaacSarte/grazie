@@ -12,58 +12,107 @@ import mixedNuts from "../../public/images/mixedNutsAndDriedFruits.png";
 import cerealBar from "../../public/images/cerealBar.jpg";
 
 const products = [{
-        title: "Crispy Mango(50g)",
-        image: crispMang,
-    },
-    {
-        title: "Crispy Pineapplee(50g)",
-        image: crispPine,
-        
-    },
-    {
-        title: "Crispy Banana(50g)",
-        image: crispBanan,
-        
-    },
-    {
-        title: "Cashew Nut(45g)",
-        image: cashewNut,
-        
-    },
-    {
-        title: "Cashew Coconut Flavor(45g)",
-        image: cashewCoco,
-    },
-    {
-        title: "Cashew Durian Flavor(45g)",
-        image: cashewDur,
-    },
-    {
-        title: "Freeze Dried Pineapple(50g)",
-        image: fdPine,
-    },
-    {
-        title: "Freeze Dried Banana(50g)",
-        image: fdBanan,
-    },
-    {
-        title: "Freeze Dried Mangosteen(50g)",
-        image: fdMangosteen,
-    },
-    {
-        title: "Freeze Dried Mango(50g)",
-        image: fdMango,
-    },
-    {
-        title: "Mixed Grain and Dried Fruits(500g)",
-        image: mixedNuts,
-    },
-    {
-        title: "Multigrain/Cereal Bar",
-        image: cerealBar,
-    },
+    title: "Crispy Mango(50g)",
+    image: crispMang,
+    descFlavor: "100% Real Mango",
+    descAdd: "No Sugar Added",
+    descPres: "No Preservatives",
+    descExp: "1 year shelf-life",
+},
+{
+    title: "Crispy Pineapplee(50g)",
+    image: crispPine,
+    descFlavor: "100% Real Pineapple",
+    descAdd: "No Sugar Added",
+    descPres: "No Preservatives",
+    descExp: "1 year shelf-life",
+},
+{
+    title: "Crispy Banana(50g)",
+    image: crispBanan,
+    descFlavor: "100% Real Banana",
+    descAdd: "No Sugar Added",
+    descPres: "No Preservatives",
+    descExp: "1 year shelf-life",
+
+},
+{
+    title: "Cashew Nut(45g)",
+    image: cashewNut,
+    descFlavor: "Natural Flavor",
+    descAdd: "No Additives",
+    descPres: "No Preservatives",
+    descExp: "1 year shelf-life",
+
+},
+{
+    title: "Cashew Coconut Flavor(45g)",
+    image: cashewCoco,
+    descFlavor: "Coconut Flavor",
+    descAdd: "No Additives",
+    descPres: "No Preservatives",
+    descExp: "1 year shelf-life",
+},
+{
+    title: "Cashew Durian Flavor(45g)",
+    image: cashewDur,
+    descFlavor: "Durian Flavor",
+    descAdd: "No Additives",
+    descPres: "No Preservatives",
+    descExp: "1 year shelf-life",
+
+},
+{
+    title: "Freeze Dried Pineapple(50g)",
+    image: fdPine,
+    descFlavor: "100% Real Pineapple",
+    descAdd: "No Additives",
+    descPres: "No Sugar Added",
+    descExp: "1 year shelf-life",
+},
+{
+    title: "Freeze Dried Banana(50g)",
+    image: fdBanan,
+    descFlavor: "100% Real Banana",
+    descAdd: "No Additives",
+    descPres: "No Sugar Added",
+    descExp: "1 year shelf-life",
+},
+{
+    title: "Freeze Dried Mangosteen(50g)",
+    image: fdMangosteen,
+    descFlavor: "100% Real Mangosteen",
+    descAdd: "No Additives",
+    descPres: "No Sugar Added",
+    descExp: "1 year shelf-life",
+},
+{
+    title: "Freeze Dried Mango(50g)",
+    image: fdMango,
+    descFlavor: "100% Real Mango",
+    descAdd: "No Additives",
+    descPres: "No Sugar Added",
+    descExp: "1 year shelf-life",
+},
+{
+    title: "Mixed Grain and Dried Fruits(500g)",
+    image: mixedNuts,
+    descFlavor: "Cashew Nuts",
+    descAdd: "Almond",
+    descPres: "Pumpkin Seeds",
+    descExp: "Sunflower Seeds and etc.",
+},
+{
+    title: "Multigrain/Cereal Bar",
+    image: cerealBar,
+    descFlavor: "White & Black Sesame Bars",
+    descAdd: "Perilla Seeds Bars",
+    descPres: "Pumpkin Seed Bars",
+    descExp: "Cashew Nut Bars",
+},
 ];
 
-export{
+export {
     products
 };
+
