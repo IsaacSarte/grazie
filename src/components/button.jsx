@@ -3,7 +3,7 @@ import cn from 'classnames';
 
 const Button = ({ label, bgColor, txtColor }) => {
   const openFacebookPage = () => {
-    window.open("https://www.facebook.com/GrazieOnlineStore/", "_blank");
+    window.open("https://www.facebook.com/graziefoodco?mibextid=ZbWKwL", "_blank");
   };
 
   return (

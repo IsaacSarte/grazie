@@ -53,7 +53,7 @@ const ExploreProducts = () => {
             description={desc}
             bgColor={'bg-yellow-800'}
             txtColor={'text-white'}
-            link={'https://www.facebook.com/GrazieOnlineStore/'}
+            link={'https://www.facebook.com/graziefoodco?mibextid=ZbWKwL'}
           />
         </div>
         <div ref={ref} className="grid grid-cols-2 md:grid-cols-3 gap-14 mt-8 w-[95%] mx-auto">
